@@ -17,9 +17,10 @@ setup(
   download_url = 'https://github.com/cedricrupb/code_ast/archive/refs/tags/v0.1.0.tar.gz',  
   keywords = ['code', 'ast', 'syntax', 'program', 'language processing'], 
   install_requires=[          
-          'tree_sitter',
-          'GitPython',
-          'requests'
+          'tree_sitter==0.19.0',
+          'GitPython==3.1.18',
+          'requests==2.25.1',
+          'setuptools==70.1.1'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',    
